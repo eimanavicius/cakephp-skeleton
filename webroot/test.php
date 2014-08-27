@@ -19,6 +19,8 @@
 set_time_limit(0);
 ini_set('display_errors', 1);
 
+chdir(dirname(dirname(__FILE__)));
+
 /**
  * Use the DS to separate the directories in other defines
  */
