@@ -1,0 +1,47 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# IDE and editor specific files
+/.cache
+.project
+/.settings
+.buildpath
+.idea
+
+# Env specific and automatically generated files #
+*.mo
+Config/database.php
+tmp/*
+tmp/cache/*
+tmp/cache/models/*
+tmp/cache/persistent/*
+tmp/cache/views/*
+tmp/logs/*
+tmp/sessions/*
+tmp/tests/*
+!tmp/
+!tmp/cache/
+!tmp/cache/models/
+!tmp/cache/persistent/
+!tmp/cache/views/
+!tmp/logs/
+!tmp/sessions/
+!tmp/tests/
+
+# Composer
+composer.phar
+Vendor/*
+!Vendor/
+
+# Plugins from composer
+Plugin/DebugKit
+
+# do not ignore placeholder files (must be last rule)
+!empty
