@@ -1,0 +1,22 @@
+{
+    "name": "nerijus/caketest2",
+    "description": "description_text",
+    "minimum-stability": "stable",
+    "license": "EULA",
+    "authors": [
+        {
+            "name": "Nerijus",
+            "email": "nerijus@eimanavicius.lt"
+        }
+    ],
+    "require": {
+        "cakephp/cakephp": "2.5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*",
+        "cakephp/debug_kit" : "2.2.*"
+    },
+    "config": {
+        "vendor-dir": "Vendor/"
+    }
+}
