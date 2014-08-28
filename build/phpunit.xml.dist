@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit>
+
+    <filter>
+        <blacklist>
+            <directory suffix=".php">../app/Plugin/DebugKit</directory>
+            <directory suffix=".ctp">../app/Plugin/DebugKit</directory>
+            <directory suffix=".php">../app/Test/</directory>
+            <directory suffix=".php">../app/Vendor/</directory>
+            <directory suffix=".ctp">../app/View/</directory>
+        </blacklist>
+    </filter>
+
+    <logging>
+        <log type="coverage-html" target="coverage"/>
+        <log type="coverage-clover" target="logs/clover.xml"/>
+        <log type="coverage-xml" target="logs/coverage"/>
+        <log type="coverage-crap4j" target="logs/crap4j.xml"/>
+        <log type="junit" target="logs/junit.xml" logIncompleteSkipped="false"/>
+    </logging>
+
+</phpunit>

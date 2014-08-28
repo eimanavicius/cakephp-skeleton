@@ -4,6 +4,7 @@ App::uses('PostsController', 'Controller');
 /**
  * PostsController Test Case
  *
+ * @SuppressWarnings(PMD.TooManyMethods)
  */
 class PostsControllerTest extends ControllerTestCase {
 

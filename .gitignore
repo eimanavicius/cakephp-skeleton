@@ -17,31 +17,38 @@ Thumbs.db
 
 # Env specific and automatically generated files #
 *.mo
-Config/database.php
-tmp/*
-tmp/cache/*
-tmp/cache/models/*
-tmp/cache/persistent/*
-tmp/cache/views/*
-tmp/logs/*
-tmp/sessions/*
-tmp/tests/*
-!tmp/
-!tmp/cache/
-!tmp/cache/models/
-!tmp/cache/persistent/
-!tmp/cache/views/
-!tmp/logs/
-!tmp/sessions/
-!tmp/tests/
+cache.properties
+build/api
+build/coverage
+build/logs
+build/pdepend
+build/phpdox
+build/phpunit.xml
+app/Config/database.php
+app/tmp/*
+app/tmp/cache/*
+app/tmp/cache/models/*
+app/tmp/cache/persistent/*
+app/tmp/cache/views/*
+app/tmp/logs/*
+app/tmp/sessions/*
+app/tmp/tests/*
+!app/tmp/
+!app/tmp/cache/
+!app/tmp/cache/models/
+!app/tmp/cache/persistent/
+!app/tmp/cache/views/
+!app/tmp/logs/
+!app/tmp/sessions/
+!app/tmp/tests/
 
 # Composer
-composer.phar
-Vendor/*
-!Vendor/
+app/composer.phar
+app/Vendor/*
+!app/Vendor/
 
 # Plugins from composer
-Plugin/DebugKit
+app/Plugin/DebugKit
 
 # do not ignore placeholder files (must be last rule)
 !empty

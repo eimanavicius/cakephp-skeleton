@@ -26,25 +26,6 @@
 class DbAclSchema extends CakeSchema {
 
 /**
- * Before event.
- *
- * @param array $event The event data.
- * @return bool Success
- */
-	public function before($event = array()) {
-		return true;
-	}
-
-/**
- * After event.
- *
- * @param array $event The event data.
- * @return void
- */
-	public function after($event = array()) {
-	}
-
-/**
  * ACO - Access Control Object - Something that is wanted
  */
 	public $acos = array(

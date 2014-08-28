@@ -2,10 +2,6 @@
 
 class CakephpblogSchema extends CakeSchema {
 
-	public function before($event = array()) {
-		return true;
-	}
-
 	public function after($event = array()) {
         if (isset($event['create'])) {
             switch ($event['create']) {
