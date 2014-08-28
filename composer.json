@@ -1,6 +1,6 @@
 {
-    "name": "nerijus/caketest2",
-    "description": "description_text",
+    "name": "eimanavicius/cakephp-skeleton",
+    "description": "CakePHP 2.5 application skeleton with Composer",
     "minimum-stability": "stable",
     "license": "EULA",
     "authors": [
@@ -10,6 +10,7 @@
         }
     ],
     "require": {
+        "php": ">=5.2.8",
         "cakephp/cakephp": "2.5.*"
     },
     "require-dev": {
@@ -23,6 +24,12 @@
         "phploc/phploc": "*"
     },
     "config": {
-        "vendor-dir": "Vendor/"
+        "vendor-dir": "app/Vendor/",
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "installer-paths": {
+            "app/Plugin/{$name}": ["cakephp/debug_kit"]
+        }
     }
 }
