@@ -18,6 +18,7 @@ Thumbs.db
 # Env specific and automatically generated files #
 *.mo
 cache.properties
+bin/
 build/api
 build/coverage
 build/logs
