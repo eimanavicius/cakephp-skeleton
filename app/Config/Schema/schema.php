@@ -1,6 +1,6 @@
 <?php
 
-class CakephpblogSchema extends CakeSchema {
+class AppSchema extends CakeSchema {
 
 	public function after($event = array()) {
         if (isset($event['create'])) {
