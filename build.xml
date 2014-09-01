@@ -99,7 +99,7 @@
     <target name="phpcs"
             description="Find coding standard violations using PHP_CodeSniffer and print human readable output. Intended for usage on the command line before committing.">
         <exec executable="bin/phpcs">
-            <arg value="--standard=CakePHP"/>
+            <arg value="--standard=app/Vendor/cakephp/cakephp-codesniffer/CakePHP"/>
             <arg value="--ignore=Vendor,Plugin/DebugKit"/>
             <arg path="${basedir}/app"/>
         </exec>
@@ -110,7 +110,7 @@
         <exec executable="bin/phpcs" output="/dev/null">
             <arg value="--report=checkstyle"/>
             <arg value="--report-file=${basedir}/build/logs/checkstyle.xml"/>
-            <arg value="--standard=CakePHP"/>
+            <arg value="--standard=app/Vendor/cakephp/cakephp-codesniffer/CakePHP"/>
             <arg value="--ignore=Vendor,Plugin/DebugKit"/>
             <arg path="${basedir}/app"/>
         </exec>
