@@ -1,20 +1,3 @@
-# OS generated files
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
-
-# IDE and editor specific files
-/.cache
-.project
-/.settings
-.buildpath
-.idea
-
 # Env specific and automatically generated files #
 *.mo
 cache.properties
