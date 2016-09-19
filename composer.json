@@ -19,7 +19,8 @@
     },
     "require": {
         "php": ">=5.2.8",
-        "cakephp/cakephp": "2.5.*"
+        "cakephp/cakephp": "^2.5",
+        "sensiolabs/security-checker": "^3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "~3.7.37",
@@ -39,5 +40,13 @@
         "installer-paths": {
             "app/Plugin/{$name}": ["cakephp/debug_kit"]
         }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "security-checker security:check composer.lock"
+        ],
+        "post-update-cmd": [
+            "security-checker security:check composer.lock"
+        ]
     }
 }
