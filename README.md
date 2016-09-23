@@ -1,9 +1,9 @@
-Cakephp 2.5 skeleton
-=================
+Cakephp 2.x skeleton
+====================
 
 Introduction
 ------------
-CakePHP 2.5 application skeleton. Features Composer, Ant build script
+CakePHP 2.x application skeleton. Features Composer, Ant build script
 (Jenkins php-template compatible http://jenkins-php.org/) for quality
 assurance.
 
