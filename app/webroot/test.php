@@ -53,19 +53,6 @@ if (!defined('APP_DIR')) {
 }
 
 /**
- * The absolute path to the "Cake" directory, WITHOUT a trailing DS.
- *
- * For ease of development CakePHP uses PHP's include_path. If you
- * need to cannot modify your include_path, you can set this path.
- *
- * Leaving this constant undefined will result in it being defined in Cake/bootstrap.php
- *
- * The following line differs from its sibling
- * /lib/Cake/Console/Templates/skel/webroot/test.php
- */
-//define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . 'lib');
-
-/**
  * This auto-detects CakePHP as a composer installed library.
  * You may remove this if you are not planning to use composer (not recommended, though).
  */
